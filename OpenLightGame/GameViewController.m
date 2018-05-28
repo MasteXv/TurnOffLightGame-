@@ -11,6 +11,8 @@
 #import "LightModel.h"
 #define kXNum 9
 #define kYNum 9
+#define kscreenWidth [UIScreen mainScreen].bounds.size.width
+#define kscreenHeight [UIScreen mainScreen].bounds.size.height
 @interface GameViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *GameCollectionView;
 
